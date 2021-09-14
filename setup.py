@@ -15,14 +15,14 @@ import __version__
 
 NAME = 'suyulinlib'
 DESCRIPTION = '   '
-URL = 'https://github.com/a-suyiyi/mylib'
+URL = 'https://github.com/a-suyiyi/_mylib'
 EMAIL = 'hbxxsylbeifen1@126.com'
 AUTHOR = 'a-suyiyi'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = __version__.version
 
 REQUIRED = [
-            'pillow>=0.0.0'
+            'pillow>=0.0.1'
 ]
 
 # What packages are optional?
