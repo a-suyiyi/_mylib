@@ -7,7 +7,7 @@ class xml:
     def __init__(self,s:str):
         self.string=BeautifulSoup(s,'xml')
     def get(self,keyword,**kwargs):
-        return self.string.find_all(keyword,kwargs)
+        return self.string.find_all(keyword,**kwargs)
 def log_in():
     global use
     use=Tk()
