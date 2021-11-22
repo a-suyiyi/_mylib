@@ -1,6 +1,6 @@
-name='suyulin'
-
-from . import maths
-from . import timelib
-from . import xes_people
-from . import scratch
+name='suyulinlib'
+__version__='0.0.5'
+import maths
+import timelib
+import xes_people
+import scratch
