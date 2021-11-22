@@ -8,6 +8,8 @@ def remote(s:str):
     os.system('git remote '+s)
 def pull(s:str):
     os.system('git pull '+s)
+def commit(s:str):
+    os.system('git commit -m "%s"'%s)
 if __name__=='__main__':
     os.system('git add .')
     os.system('git commit -m "%s"'%__init__.__version__)
