@@ -1,2 +1,2 @@
-name='suyulinlib'
-__version__='0.0.5'
+name='syllib'
+__version__='0.0.1'
