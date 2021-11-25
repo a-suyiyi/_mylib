@@ -1,9 +1,11 @@
 import sys,os,json
-path=os.path.join(*sys.executable.split(os.sep),'xes_user_configs')
+path=os.path.join(*sys.executable.split(os.sep),'xes_user_configs').replace(':',':'+os.sep)
+pid=sys.argv[0].split(os.sep)[-1].split('/')[0]
+try:pid=str(int(pid))
+except:exit()
 try:os.mkdir(path)
 except:pass
 class Config:
-    pid=sys.argv[0].split(os.sep)[-1].split('/')[0]
     def __init__(self,name:str=''):
         try:os.mkdir(os.path.join(path,pid))
         except:pass
